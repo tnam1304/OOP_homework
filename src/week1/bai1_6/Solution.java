@@ -1,7 +1,6 @@
 package week1.bai1_6;
 
 public class Solution {
-    // Độ phức tạp O(sqrt(n)), tối ưu hơn O(n)
     public boolean isPrime(int n) {
         if (n <= 1) return false;
         if (n <= 3) return true;

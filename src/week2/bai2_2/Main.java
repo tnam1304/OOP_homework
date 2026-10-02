@@ -6,15 +6,15 @@ public class Main {
         s1.setId("SV01");
         s1.setName("An");
 
-        Student s2 = new Student("SV02", "Bình");
-        s2.setEmail("binh@gmail.com");
+        Student s2 = new Student("SV02", "Nam");
+        s2.setEmail("nam@gmail.com");
 
         Student s3 = new Student(s2);
         s3.setId("SV03");
 
         s1.setGpa(-1.5);
         s2.setGpa(3.5);
-        s3.setGpa(5.0);
+        s3.setGpa(4.0);
 
         s1.displayInfo();
         s2.displayInfo();
