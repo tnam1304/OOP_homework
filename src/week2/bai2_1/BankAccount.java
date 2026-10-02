@@ -5,12 +5,6 @@ public class BankAccount {
     private double balance;
     private String ownerName;
 
-    public BankAccount(String accountNumber, String ownerName) {
-        this.accountNumber = accountNumber;
-        this.ownerName = ownerName;
-        this.balance = 0.0;
-    }
-
     public BankAccount(String accountNumber, String ownerName, double initialBalance) {
         this.accountNumber = accountNumber;
         this.ownerName = ownerName;
