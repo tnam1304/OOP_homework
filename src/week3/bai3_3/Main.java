@@ -1,0 +1,11 @@
+package week3.bai3_3;
+
+public class Main {
+    public static void main(String[] args)
+    {
+        MathUtils m = new AdvancedMath();
+        System.out.println(m.sum(5, 5)); // (A)
+// System.out.println(m.sum(5.5, 5.5)); // (B)
+
+    }
+}
